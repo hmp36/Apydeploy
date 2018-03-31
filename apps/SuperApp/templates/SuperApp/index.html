@@ -2,17 +2,23 @@
 <html>
 
 <head>
-	<title>Login/Register</title>
+	<title>Sonia Pratt</title>
 </head>
 
 <body>
-	<h1 style="color: Green">Registration</h1>
+	<h1 style="color: Green">Sonia Pratt</h1>
 	 {% if messages %} {% for message in messages %}
 	<p>{{ message }}</p>
 	{% endfor %} {% endif %} 
 
+<a href="/friends">Menu</a>
+<a href="/friends">Home</a>
+<a href="/friends">Paintings</a>
+<a href="/friends">Drawings</a>
+<a href="/friends">About</a>
+<a href="/friends">Contact</a>
 
-	<form action="/register" method='post'>
+	<!-- <form action="/register" method='post'>
 		{% csrf_token %}
 		Name:<input type="text" name="name">
 		<br> 
@@ -29,8 +35,8 @@
 		<input type="submit" value="Register">
 		</form>
 	</form>
-	<h1 style="color: Blue">Login</h1>
-	<form action="/login" method='post'>
+	<h1 style="color: Blue">Login</h1> -->
+	<!-- <form action="/login" method='post'>
 		{% csrf_token %}
 		<p>Email:
 			<input type="email" name="email">
@@ -41,7 +47,7 @@
 		<p>
 			<input type="submit" name="Submit">
 		</p>
-	</form>
+	</form> -->
 </body>
 </body>
 
